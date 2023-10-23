@@ -1,0 +1,65 @@
+/* reset css */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url("background1.jpg");
+    color: aliceblue;
+    background-size: cover;
+    text-align: center;
+}
+
+/* style navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-kanan {
+    display: flex;
+    margin-right: 15px;
+}
+
+.logo {
+    margin: 20px;
+}
+
+.nav-kanan p {
+    margin-right: 15px;
+}
+
+/* style content */
+.content {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.content h1 {
+    color: rgb(165, 190, 1);
+    font-family: montserrat;
+}
+
+.clock {
+    width: 180px;
+    font-size: 25px;
+    margin: 0 auto;
+    border: 3px solid white;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+/* style footer */
+.footer {
+    color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.footer p a {
+    color: aliceblue;
+    cursor: pointer;
+}
